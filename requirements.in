@@ -1,0 +1,2 @@
+gphoto2>=2.5.0,<3.0.0
+PySide6-Essentials>=6.7.1,<7.0.0

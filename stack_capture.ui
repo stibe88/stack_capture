@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>516</width>
+    <height>561</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Stack Capture</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon_stack_capture.jpg</normaloff>icon_stack_capture.jpg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="GB_camera_settings">
+      <property name="title">
+       <string>Kameraeinstellungen</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="2" column="0">
+        <widget class="QCheckBox" name="CB_aperture">
+         <property name="text">
+          <string>Blende</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="L_shutter_speed">
+         <property name="text">
+          <string>s</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QCheckBox" name="CB_iso">
+         <property name="text">
+          <string>ISO</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QCheckBox" name="CB_shutter_speed">
+         <property name="text">
+          <string>Belichtungszeit</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QComboBox" name="COB_iso"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="COB_aperture"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="COB_shutter_speed"/>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="L_camera_name">
+         <property name="text">
+          <string>Kamera</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="LED_camera">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QGroupBox" name="GB_focus">
+      <property name="title">
+       <string>Fokus</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="1" column="0" colspan="3">
+        <widget class="QSlider" name="HSL_focus">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="L_new_focus">
+         <property name="text">
+          <string>Minimum</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="L_current_focus">
+         <property name="text">
+          <string>Aktuell</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="L_current_focus_2">
+         <property name="text">
+          <string>Maximum</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLineEdit" name="LED_min_focus">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="LED_current_focus">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLineEdit" name="LED_max_focus">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="3">
+        <widget class="QPushButton" name="PB_initialize_focus">
+         <property name="text">
+          <string>Fokus-Initialisierung</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QGroupBox" name="GB_focus_stacker">
+      <property name="title">
+       <string>Fokusserie</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QLabel" name="L_file_path">
+         <property name="text">
+          <string>Ordnerpfad</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1" colspan="3">
+        <widget class="QLineEdit" name="LE_file_path">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QToolButton" name="TB_file_path">
+         <property name="text">
+          <string>...</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="L_name">
+         <property name="text">
+          <string>Name Bildserie</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1" colspan="4">
+        <widget class="QLineEdit" name="LE_serie_name"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="L_focus_step">
+         <property name="text">
+          <string>Fokusänderung</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QSpinBox" name="SB_focus_change">
+         <property name="minimum">
+          <number>-32767</number>
+         </property>
+         <property name="maximum">
+          <number>32767</number>
+         </property>
+         <property name="singleStep">
+          <number>10</number>
+         </property>
+         <property name="value">
+          <number>50</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="L_number_images">
+         <property name="text">
+          <string>Anzahl Fotos</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3" colspan="2">
+        <widget class="QSpinBox" name="SB_number_images">
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>200</number>
+         </property>
+         <property name="value">
+          <number>1</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="5">
+        <widget class="QPushButton" name="PB_capture">
+         <property name="text">
+          <string>Aufnahme</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
