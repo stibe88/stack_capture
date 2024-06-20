@@ -31,12 +31,12 @@ pip install -r requirements.in
 Basic usage
 -----------
 
-Starting the application with:
+Launch the application with:
 
 ```bash
 cd stack_capture
 ./venv/bin/activate
-python stack_capture.py
+python app/stack_capture_app.py
 ```
 
 First, it captures a very short video.

@@ -1,0 +1,34 @@
+Camera Command Sets:
+  - model: "Nikon DSC D300s (PTP mode)"
+    iso:
+      command: iso
+      datatype: string
+      value: null
+    shutter_speed:
+      command: shutterspeed2
+      datatype: string
+      value: null
+    aperture:
+      command: f-number
+      datatype: string
+      value: null
+    change_live_view_modus:
+      command: d1a0
+      datatype: string
+      value: null
+    enable_viewfinder:
+      command: viewfinder
+      datatype: integer
+      value: 1
+    disable_viewfinder:
+      command: viewfinder
+      datatype: integer
+      value: 0
+    disable_autofocus:
+      command: autofocus
+      datatype: string
+      value: Aus
+    change_focus:
+      command: manualfocusdrive
+      datatype: integer
+      value: null

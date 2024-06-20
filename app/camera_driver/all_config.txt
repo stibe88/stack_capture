@@ -1,0 +1,4703 @@
+/main/actions/bulb
+Label: Langzeit Belichtungsmodus
+Readonly: 0
+Type: TOGGLE
+Current: 2
+END
+/main/actions/autofocusdrive
+Label: Fahre NIKON DSLR Autofokus
+Readonly: 0
+Type: TOGGLE
+Current: 0
+END
+/main/actions/manualfocusdrive
+Label: Fahre NIKON DSLR manuellen Fokus
+Readonly: 0
+Type: RANGE
+Current: 0
+Bottom: -32767
+Top: 32767
+Step: 1
+END
+/main/actions/changeafarea
+Label: Set Nikon Autofocus area
+Readonly: 0
+Type: TEXT
+Current: 0x0
+END
+/main/actions/controlmode
+Label: Set Nikon Control Mode
+Readonly: 0
+Type: TEXT
+Current: 0
+END
+/main/actions/viewfinder
+Label: Nikon Viewfinder
+Readonly: 0
+Type: TOGGLE
+Current: 0
+END
+/main/actions/opcode
+Label: PTP Opcode
+Readonly: 0
+Type: TEXT
+Current: 0x1001,0xparam1,0xparam2
+END
+/main/settings/datetime
+Label: Kamera Datum und Zeit
+Readonly: 0
+Type: DATE
+Current: 1715507284
+Printable: So 12 Mai 2024 11:48:04 CEST
+Help: Benutzt 'jetzt' als die aktuelle Zeit beim setzen.
+
+END
+/main/settings/imagecomment
+Label: Bild Kommentar
+Readonly: 0
+Type: TEXT
+Current:                                     
+END
+/main/settings/imagecommentenable
+Label: Schalte Bild Kommentar ein
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/settings/recordingmedia
+Label: Aufnahmemedium
+Readonly: 0
+Type: RADIO
+Current: Speicherkarte
+Choice: 0 Speicherkarte
+Choice: 1 Kamera SDRAM
+END
+/main/settings/reversedial
+Label: Umgedrehtes Kommando Rad
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/settings/artist
+Label: Künstler
+Readonly: 0
+Type: TEXT
+Current: Stefan Blaser
+END
+/main/settings/ccdnumber
+Label: CCD Number
+Readonly: 1
+Type: TEXT
+Current:                     
+END
+/main/settings/copyright
+Label: Copyright
+Readonly: 0
+Type: TEXT
+Current: Stefan Blaser
+END
+/main/settings/menusandplayback
+Label: Menüs und Abspielen
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 Aus
+Choice: 1 An
+END
+/main/settings/thumbsize
+Label: Vorschaubildgröße
+Readonly: 0
+Type: RADIO
+Current: 
+Choice: 0 normal
+Choice: 1 groß
+END
+/main/settings/fastfs
+Label: Schnelles Dateisystem
+Readonly: 0
+Type: TOGGLE
+Current: 1
+END
+/main/settings/capturetarget
+Label: Aufnahmeziel
+Readonly: 0
+Type: RADIO
+Current: interner Speicher
+Choice: 0 interner Speicher
+Choice: 1 Speicherkarte
+END
+/main/settings/autofocus
+Label: Autofokus
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/status/serialnumber
+Label: Seriennummer
+Readonly: 1
+Type: TEXT
+Current: 6066937
+END
+/main/status/manufacturer
+Label: Kamerahersteller
+Readonly: 1
+Type: TEXT
+Current: Nikon Corporation
+END
+/main/status/cameramodel
+Label: Kameramodell
+Readonly: 1
+Type: TEXT
+Current: D300S
+END
+/main/status/deviceversion
+Label: Device Version
+Readonly: 1
+Type: TEXT
+Current: V1.02
+END
+/main/status/vendorextension
+Label: Vendor Extension
+Readonly: 1
+Type: TEXT
+Current: microsoft.com: 1.0
+END
+/main/status/acpower
+Label: Netzanschluss
+Readonly: 1
+Type: RADIO
+Current: An
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/status/externalflash
+Label: Externer Blitz
+Readonly: 1
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/status/batterylevel
+Label: Akkuladung
+Readonly: 1
+Type: TEXT
+Current: 100%
+END
+/main/status/orientation
+Label: Kameraausrichtung
+Readonly: 1
+Type: RADIO
+Current: 0'
+Choice: 0 0'
+Choice: 1 270'
+Choice: 2 90'
+Choice: 3 180'
+END
+/main/status/orientation2
+Label: Kameraausrichtung
+Readonly: 1
+Type: TEXT
+Current: 1'
+END
+/main/status/flashopen
+Label: Blitz offen
+Readonly: 1
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/status/flashcharged
+Label: Blitz geladen
+Readonly: 1
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/status/lensname
+Label: Objektivbezeichnung
+Readonly: 1
+Type: RADIO
+Current: Unbekannter Wert 0004
+Choice: 0 Unbekannter Wert 0004
+END
+/main/status/minfocallength
+Label: minimale Fokus Tiefe
+Readonly: 1
+Type: TEXT
+Current: 28 mm
+END
+/main/status/maxfocallength
+Label: maximale Fokus Tiefe
+Readonly: 1
+Type: TEXT
+Current: 28 mm
+END
+/main/status/apertureatminfocallength
+Label: Maximale Blende bei Minimaler Brennweite
+Readonly: 1
+Type: TEXT
+Current: 3
+END
+/main/status/apertureatmaxfocallength
+Label: Maximale Blende bei Maximaler Brennweite
+Readonly: 1
+Type: TEXT
+Current: 3
+END
+/main/status/lowlight
+Label: Wenig Licht
+Readonly: 1
+Type: RANGE
+Current: 0
+Bottom: 0
+Top: 8
+Step: 1
+END
+/main/status/lightmeter
+Label: Belichtungsmesser
+Readonly: 1
+Type: RANGE
+Current: 20
+Bottom: -60
+Top: 60
+Step: 1
+END
+/main/status/aflocked
+Label: AF Lock an
+Readonly: 1
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/status/aelocked
+Label: AE Lock an
+Readonly: 1
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/status/fvlocked
+Label: FV Lock an
+Readonly: 1
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/status/liveviewprohibit
+Label: Liveview Prohibit Condition
+Readonly: 1
+Type: TEXT
+Current: Live View prohibit conditions: unhandled bitmask 1
+END
+/main/imgsettings/imagesize
+Label: Bildgröße
+Readonly: 0
+Type: RADIO
+Current: 4288x2848
+Choice: 0 4288x2848
+Choice: 1 3216x2136
+Choice: 2 2144x1424
+END
+/main/imgsettings/iso
+Label: ISO-Geschwindigkeit
+Readonly: 0
+Type: RADIO
+Current: 250
+Choice: 0 100
+Choice: 1 125
+Choice: 2 160
+Choice: 3 200
+Choice: 4 250
+Choice: 5 320
+Choice: 6 400
+Choice: 7 500
+Choice: 8 640
+Choice: 9 800
+Choice: 10 1000
+Choice: 11 1250
+Choice: 12 1600
+Choice: 13 2000
+Choice: 14 2500
+Choice: 15 3200
+Choice: 16 4000
+Choice: 17 5000
+Choice: 18 6400
+END
+/main/imgsettings/autoiso
+Label: Auto ISO
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/imgsettings/whitebalance
+Label: Weißabgleich
+Readonly: 0
+Type: RADIO
+Current: Automatisch
+Choice: 0 Automatisch
+Choice: 1 Tageslicht
+Choice: 2 Kunstlicht (Leuchtstofflampe)
+Choice: 3 Kunstlicht - Glühlampe
+Choice: 4 Blitz
+Choice: 5 Wolkig
+Choice: 6 Schatten
+Choice: 7 Farbtemperatur
+Choice: 8 Voreinstellung
+END
+/main/imgsettings/colorspace
+Label: Farbraum
+Readonly: 0
+Type: RADIO
+Current: sRGB
+Choice: 0 sRGB
+Choice: 1 AdobeRGB
+END
+/main/capturesettings/minimumshutterspeed
+Label: Minimale Belichtungszeit
+Readonly: 0
+Type: RADIO
+Current: 1/4
+Choice: 0 1/2000
+Choice: 1 1/1600
+Choice: 2 1/1250
+Choice: 3 1/1000
+Choice: 4 1/800
+Choice: 5 1/640
+Choice: 6 1/500
+Choice: 7 1/400
+Choice: 8 1/320
+Choice: 9 1/250
+Choice: 10 1/200
+Choice: 11 1/160
+Choice: 12 1/125
+Choice: 13 1/100
+Choice: 14 1/80
+Choice: 15 1/60
+Choice: 16 1/50
+Choice: 17 1/40
+Choice: 18 1/30
+Choice: 19 1/15
+Choice: 20 1/8
+Choice: 21 1/4
+Choice: 22 1/2
+Choice: 23 1
+Choice: 24 Unbekannter Wert 0018
+Choice: 25 Unbekannter Wert 0019
+Choice: 26 Unbekannter Wert 001a
+END
+/main/capturesettings/isoautohilimit
+Label: Hohes Limit für Auto ISO
+Readonly: 0
+Type: RADIO
+Current: 3200
+Choice: 0 400
+Choice: 1 800
+Choice: 2 1600
+Choice: 3 3200
+Choice: 4 Hoch 1
+END
+/main/capturesettings/dlighting
+Label: Aktives D-Lighting
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 Extra hoch
+Choice: 1 Hoch
+Choice: 2 Normal
+Choice: 3 Niedrig
+Choice: 4 Aus
+Choice: 5 Auto
+END
+/main/capturesettings/highisonr
+Label: Rauschunterdrückung bei hohen ISO
+Readonly: 0
+Type: RADIO
+Current: Normal
+Choice: 0 Aus
+Choice: 1 Niedrig
+Choice: 2 Normal
+Choice: 3 Hoch
+END
+/main/capturesettings/shootingspeed
+Label: Langsame Kontinuierliche Aufname
+Readonly: 0
+Type: RADIO
+Current: Unbekannter Wert 0004
+Choice: 0 4 fps
+Choice: 1 3 fps
+Choice: 2 2 fps
+Choice: 3 1 fps
+Choice: 4 Unbekannter Wert 0004
+Choice: 5 Unbekannter Wert 0005
+Choice: 6 Unbekannter Wert 0006
+END
+/main/capturesettings/maximumcontinousrelease
+Label: Maximum an kontinuierlichen Aufnahmen
+Readonly: 0
+Type: RANGE
+Current: 100
+Bottom: 1
+Top: 100
+Step: 1
+END
+/main/capturesettings/moviequality
+Label: Filmqualität
+Readonly: 0
+Type: RADIO
+Current: 640x424
+Choice: 0 320x216
+Choice: 1 640x424
+Choice: 2 1280x720
+END
+/main/capturesettings/rawcompression
+Label: RAW.Komprimierung
+Readonly: 0
+Type: RADIO
+Current: Verlustlos
+Choice: 0 Verlustlos
+Choice: 1 Verlustreich
+Choice: 2 Unbekannter Wert 0002
+END
+/main/capturesettings/flashsyncspeed
+Label: Blitzsynchronisations Geschwindigkeit
+Readonly: 0
+Type: RADIO
+Current: 1/200s
+Choice: 0 1/250s (Auto FP)
+Choice: 1 1/250s
+Choice: 2 1/200s
+Choice: 3 1/160s
+Choice: 4 1/125s
+Choice: 5 1/100s
+Choice: 6 1/80s
+Choice: 7 1/60s
+Choice: 8 Unbekannter Wert 0008
+END
+/main/capturesettings/flashshutterspeed
+Label: Blitz Belichtungszeit
+Readonly: 0
+Type: RADIO
+Current: 1/60s
+Choice: 0 1/60s
+Choice: 1 1/30s
+Choice: 2 1/15s
+Choice: 3 1/8s
+Choice: 4 1/4s
+Choice: 5 1/2s
+Choice: 6 1s
+Choice: 7 2s
+Choice: 8 4s
+Choice: 9 8s
+Choice: 10 15s
+Choice: 11 30s
+END
+/main/capturesettings/longexpnr
+Label: Bildrauschen bei langer Belichtungszeit unterdrücken
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/capturesettings/autofocusmode2
+Label: Autofokusmodus 2
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/capturesettings/assistlight
+Label: Autofokus Hilfslicht
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/capturesettings/exposurecompensation
+Label: Belichtungsausgleich
+Readonly: 0
+Type: RADIO
+Current: 0
+Choice: 0 -5
+Choice: 1 -4,666
+Choice: 2 -4,333
+Choice: 3 -4
+Choice: 4 -3,666
+Choice: 5 -3,333
+Choice: 6 -3
+Choice: 7 -2,666
+Choice: 8 -2,333
+Choice: 9 -2
+Choice: 10 -1,666
+Choice: 11 -1,333
+Choice: 12 -1
+Choice: 13 -0,666
+Choice: 14 -0,333
+Choice: 15 0
+Choice: 16 0,333
+Choice: 17 0,666
+Choice: 18 1
+Choice: 19 1,333
+Choice: 20 1,666
+Choice: 21 2
+Choice: 22 2,333
+Choice: 23 2,666
+Choice: 24 3
+Choice: 25 3,333
+Choice: 26 3,666
+Choice: 27 4
+Choice: 28 4,333
+Choice: 29 4,666
+Choice: 30 5
+END
+/main/capturesettings/exposurecompensation2
+Label: Belichtungsausgleich
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/capturesettings/flashmode
+Label: Blitzmodus
+Readonly: 0
+Type: RADIO
+Current: Auto
+Choice: 0 automatische Rote-Augen-Vermeidung
+Choice: 1 Auto
+Choice: 2 Hinterer Vorhang Sync+Langsamer Sync
+END
+/main/capturesettings/nikonflashmode
+Label: Nikon Blitzmodus
+Readonly: 0
+Type: RADIO
+Current: iTTL
+Choice: 0 iTTL
+Choice: 1 Manuell
+Choice: 2 Commander
+Choice: 3 Wiederholend
+END
+/main/capturesettings/flashcommandchannel
+Label: Blitz Commander Kanal
+Readonly: 0
+Type: RADIO
+Current: 1
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+END
+/main/capturesettings/flashcommandselfmode
+Label: Blitz Commander eigener Modus
+Readonly: 0
+Type: RADIO
+Current: TTL
+Choice: 0 TTL
+Choice: 1 Manuell
+Choice: 2 Aus
+END
+/main/capturesettings/flashcommandselfcompensation
+Label: Blitz Commander eigene Belichtungskorrektur
+Readonly: 0
+Type: RADIO
+Current: 0.0
+Choice: 0 -3.0
+Choice: 1 -2.7
+Choice: 2 -2.3
+Choice: 3 -2.0
+Choice: 4 -1.7
+Choice: 5 -1.3
+Choice: 6 -1.0
+Choice: 7 -0.7
+Choice: 8 -0.3
+Choice: 9 0.0
+Choice: 10 0.3
+Choice: 11 0.7
+Choice: 12 1.0
+Choice: 13 1.3
+Choice: 14 1.7
+Choice: 15 2.0
+Choice: 16 2.3
+Choice: 17 2.7
+Choice: 18 3.0
+END
+/main/capturesettings/flashcommandselfvalue
+Label: Blitz Commander Selbst Wert
+Readonly: 0
+Type: RADIO
+Current: Voll
+Choice: 0 Voll
+Choice: 1 1/1.3
+Choice: 2 1/1.7
+Choice: 3 1/2
+Choice: 4 1/2.5
+Choice: 5 1/3.2
+Choice: 6 1/4
+Choice: 7 1/5
+Choice: 8 1/6.4
+Choice: 9 1/8
+Choice: 10 1/10
+Choice: 11 1/13
+Choice: 12 1/16
+Choice: 13 1/20
+Choice: 14 1/25
+Choice: 15 1/32
+Choice: 16 1/40
+Choice: 17 1/50
+Choice: 18 1/64
+Choice: 19 1/80
+Choice: 20 1/100
+Choice: 21 1/128
+END
+/main/capturesettings/flashcommandamode
+Label: Blitz Commander A Modus
+Readonly: 0
+Type: RADIO
+Current: TTL
+Choice: 0 TTL
+Choice: 1 Automatische Blende
+Choice: 2 Manuell
+Choice: 3 Aus
+END
+/main/capturesettings/flashcommandacompensation
+Label: Blitz Commander A Belichtungskorrektur
+Readonly: 0
+Type: RADIO
+Current: 0.0
+Choice: 0 -3.0
+Choice: 1 -2.7
+Choice: 2 -2.3
+Choice: 3 -2.0
+Choice: 4 -1.7
+Choice: 5 -1.3
+Choice: 6 -1.0
+Choice: 7 -0.7
+Choice: 8 -0.3
+Choice: 9 0.0
+Choice: 10 0.3
+Choice: 11 0.7
+Choice: 12 1.0
+Choice: 13 1.3
+Choice: 14 1.7
+Choice: 15 2.0
+Choice: 16 2.3
+Choice: 17 2.7
+Choice: 18 3.0
+END
+/main/capturesettings/flashcommandavalue
+Label: Blitz Commander A Wert
+Readonly: 0
+Type: RADIO
+Current: Voll
+Choice: 0 Voll
+Choice: 1 1/1.3
+Choice: 2 1/1.7
+Choice: 3 1/2
+Choice: 4 1/2.5
+Choice: 5 1/3.2
+Choice: 6 1/4
+Choice: 7 1/5
+Choice: 8 1/6.4
+Choice: 9 1/8
+Choice: 10 1/10
+Choice: 11 1/13
+Choice: 12 1/16
+Choice: 13 1/20
+Choice: 14 1/25
+Choice: 15 1/32
+Choice: 16 1/40
+Choice: 17 1/50
+Choice: 18 1/64
+Choice: 19 1/80
+Choice: 20 1/100
+Choice: 21 1/128
+END
+/main/capturesettings/flashcommandbmode
+Label: Blitz Commander B Modus
+Readonly: 0
+Type: RADIO
+Current: TTL
+Choice: 0 TTL
+Choice: 1 Automatische Blende
+Choice: 2 Manuell
+Choice: 3 Aus
+END
+/main/capturesettings/flashcommandbcompensation
+Label: Blitz Commander B Belichtungskorrektur
+Readonly: 0
+Type: RADIO
+Current: 0.0
+Choice: 0 -3.0
+Choice: 1 -2.7
+Choice: 2 -2.3
+Choice: 3 -2.0
+Choice: 4 -1.7
+Choice: 5 -1.3
+Choice: 6 -1.0
+Choice: 7 -0.7
+Choice: 8 -0.3
+Choice: 9 0.0
+Choice: 10 0.3
+Choice: 11 0.7
+Choice: 12 1.0
+Choice: 13 1.3
+Choice: 14 1.7
+Choice: 15 2.0
+Choice: 16 2.3
+Choice: 17 2.7
+Choice: 18 3.0
+END
+/main/capturesettings/flashcommandbvalue
+Label: Blitz Commander B Wert
+Readonly: 0
+Type: RADIO
+Current: Voll
+Choice: 0 Voll
+Choice: 1 1/1.3
+Choice: 2 1/1.7
+Choice: 3 1/2
+Choice: 4 1/2.5
+Choice: 5 1/3.2
+Choice: 6 1/4
+Choice: 7 1/5
+Choice: 8 1/6.4
+Choice: 9 1/8
+Choice: 10 1/10
+Choice: 11 1/13
+Choice: 12 1/16
+Choice: 13 1/20
+Choice: 14 1/25
+Choice: 15 1/32
+Choice: 16 1/40
+Choice: 17 1/50
+Choice: 18 1/64
+Choice: 19 1/80
+Choice: 20 1/100
+Choice: 21 1/128
+END
+/main/capturesettings/af-area-illumination
+Label: Ausleuchtung des Autofokus-Bereichs
+Readonly: 0
+Type: RADIO
+Current: Auto
+Choice: 0 Auto
+Choice: 1 Aus
+Choice: 2 An
+END
+/main/capturesettings/afbeep
+Label: Autofokus-Signaltonmodus
+Readonly: 0
+Type: RADIO
+Current: An
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/capturesettings/f-number
+Label: F-Nummer
+Readonly: 0
+Type: RADIO
+Current: f/2,8
+Choice: 0 f/2,8
+Choice: 1 f/3,2
+Choice: 2 f/3,5
+Choice: 3 f/4
+Choice: 4 f/4,5
+Choice: 5 f/5
+Choice: 6 f/5,6
+Choice: 7 f/6,3
+Choice: 8 f/7,1
+Choice: 9 f/8
+Choice: 10 f/9
+Choice: 11 f/10
+Choice: 12 f/11
+Choice: 13 f/13
+Choice: 14 f/14
+Choice: 15 f/16
+Choice: 16 f/18
+Choice: 17 f/20
+Choice: 18 f/22
+END
+/main/capturesettings/flexibleprogram
+Label: Flexibles Programm
+Readonly: 0
+Type: RANGE
+Current: 0
+Bottom: -30
+Top: 30
+Step: 2
+END
+/main/capturesettings/imagequality
+Label: Bildqualität
+Readonly: 0
+Type: RADIO
+Current: JPEG Fein
+Choice: 0 JPEG Basic
+Choice: 1 JPEG Normal
+Choice: 2 JPEG Fein
+Choice: 3 Unbekannter Wert 0003
+Choice: 4 NEF (Raw)
+Choice: 5 NEF+Basic
+Choice: 6 NEF+Normal
+Choice: 7 NEF+Fein
+END
+/main/capturesettings/focallength
+Label: Fokus Tiefe
+Readonly: 1
+Type: RANGE
+Current: 28
+Bottom: 28
+Top: 28
+Step: 0,01
+END
+/main/capturesettings/focusmode
+Label: Fokusmodus
+Readonly: 1
+Type: RADIO
+Current: AF-C
+Choice: 0 Manuell
+Choice: 1 AF-S
+Choice: 2 AF-C
+END
+/main/capturesettings/expprogram
+Label: Belichtungs Programm
+Readonly: 0
+Type: RADIO
+Current: M
+Choice: 0 M
+Choice: 1 P
+Choice: 2 A
+Choice: 3 S
+END
+/main/capturesettings/capturemode
+Label: Bildaufnahme Modus
+Readonly: 1
+Type: RADIO
+Current: Einzelbild
+Choice: 0 Einzelbild
+Choice: 1 Mehrbild
+Choice: 2 Kontinuierlicher Langsame Geschwindigkeit
+Choice: 3 Selbstauslöser
+Choice: 4 Spiegel hochklappen
+Choice: 5 Leises Auslösen
+END
+/main/capturesettings/focusmetermode
+Label: Entfernungs Messungs Modus
+Readonly: 1
+Type: RADIO
+Current: Nächstgelegenes Objekt
+Choice: 0 Mehrpunkt
+Choice: 1 Einzelner Bereich
+Choice: 2 Nächstgelegenes Objekt
+END
+/main/capturesettings/exposuremetermode
+Label: Belichtungsmessmodus
+Readonly: 1
+Type: RADIO
+Current: Zentral Punkt
+Choice: 0 Mittelpunkt/Gewichtet
+Choice: 1 Mehrpunkt
+Choice: 2 Zentral Punkt
+END
+/main/capturesettings/shutterspeed
+Label: Verschlusszeit
+Readonly: 0
+Type: RADIO
+Current: 0,1000s
+Choice: 0 0,0001s
+Choice: 1 0,0002s
+Choice: 2 0,0003s
+Choice: 3 0,0004s
+Choice: 4 0,0005s
+Choice: 5 0,0006s
+Choice: 6 0,0008s
+Choice: 7 0,0010s
+Choice: 8 0,0012s
+Choice: 9 0,0015s
+Choice: 10 0,0020s
+Choice: 11 0,0025s
+Choice: 12 0,0031s
+Choice: 13 0,0040s
+Choice: 14 0,0050s
+Choice: 15 0,0062s
+Choice: 16 0,0080s
+Choice: 17 0,0100s
+Choice: 18 0,0125s
+Choice: 19 0,0166s
+Choice: 20 0,0200s
+Choice: 21 0,0250s
+Choice: 22 0,0333s
+Choice: 23 0,0400s
+Choice: 24 0,0500s
+Choice: 25 0,0666s
+Choice: 26 0,0769s
+Choice: 27 0,1000s
+Choice: 28 0,1250s
+Choice: 29 0,1666s
+Choice: 30 0,2000s
+Choice: 31 0,2500s
+Choice: 32 0,3333s
+Choice: 33 0,4000s
+Choice: 34 0,5000s
+Choice: 35 0,6250s
+Choice: 36 0,7692s
+Choice: 37 1,0000s
+Choice: 38 1,3000s
+Choice: 39 1,6000s
+Choice: 40 2,0000s
+Choice: 41 2,5000s
+Choice: 42 3,0000s
+Choice: 43 4,0000s
+Choice: 44 5,0000s
+Choice: 45 6,0000s
+Choice: 46 8,0000s
+Choice: 47 10,0000s
+Choice: 48 13,0000s
+Choice: 49 15,0000s
+Choice: 50 20,0000s
+Choice: 51 25,0000s
+Choice: 52 30,0000s
+Choice: 53 Langzeitbelichtung
+END
+/main/capturesettings/shutterspeed2
+Label: Belichtungszeit 2
+Readonly: 0
+Type: RADIO
+Current: 1/10
+Choice: 0 1/8000
+Choice: 1 1/6400
+Choice: 2 1/5000
+Choice: 3 1/4000
+Choice: 4 1/3200
+Choice: 5 1/2500
+Choice: 6 1/2000
+Choice: 7 1/1600
+Choice: 8 1/1250
+Choice: 9 1/1000
+Choice: 10 1/800
+Choice: 11 1/640
+Choice: 12 1/500
+Choice: 13 1/400
+Choice: 14 1/320
+Choice: 15 1/250
+Choice: 16 1/200
+Choice: 17 1/160
+Choice: 18 1/125
+Choice: 19 1/100
+Choice: 20 1/80
+Choice: 21 1/60
+Choice: 22 1/50
+Choice: 23 1/40
+Choice: 24 1/30
+Choice: 25 1/25
+Choice: 26 1/20
+Choice: 27 1/15
+Choice: 28 1/13
+Choice: 29 1/10
+Choice: 30 1/8
+Choice: 31 1/6
+Choice: 32 1/5
+Choice: 33 1/4
+Choice: 34 1/3
+Choice: 35 10/25
+Choice: 36 1/2
+Choice: 37 10/16
+Choice: 38 10/13
+Choice: 39 1
+Choice: 40 13/10
+Choice: 41 16/10
+Choice: 42 2
+Choice: 43 25/10
+Choice: 44 3
+Choice: 45 4
+Choice: 46 5
+Choice: 47 6
+Choice: 48 8
+Choice: 49 10
+Choice: 50 13
+Choice: 51 15
+Choice: 52 20
+Choice: 53 25
+Choice: 54 30
+Choice: 55 x 200
+Choice: 56 Langzeitbelichtung
+END
+/main/capturesettings/focusareawrap
+Label: Fokus Bereich Wraparound
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/capturesettings/exposuredelaymode
+Label: Belichtungs Verzögerungs Modus
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/capturesettings/exposurelock
+Label: Belichtungs Lock
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/capturesettings/aelaflmode
+Label: AE-L/AF-L Modus
+Readonly: 0
+Type: RADIO
+Current: AF Lock halten
+Choice: 0 AE/AF Lock
+Choice: 1 nur AE Lock
+Choice: 2 Nur AF Lock
+Choice: 3 AF Lock halten
+Choice: 4 AF an
+Choice: 5 Blitzstärke Lock
+Choice: 6 Unbekannter Wert 0006
+Choice: 7 Unbekannter Wert 0007
+Choice: 8 Unbekannter Wert 0008
+Choice: 9 Unbekannter Wert 0009
+Choice: 10 Unbekannter Wert 000a
+Choice: 11 Unbekannter Wert 000b
+Choice: 12 Unbekannter Wert 000c
+Choice: 13 Unbekannter Wert 000d
+Choice: 14 Unbekannter Wert 000e
+Choice: 15 Unbekannter Wert 000f
+Choice: 16 Unbekannter Wert 0010
+END
+/main/capturesettings/liveviewimagezoomratio
+Label: Live View Zoom Faktor
+Readonly: 0
+Type: RADIO
+Current: Vollständige Anzeige
+Choice: 0 Vollständige Anzeige
+Choice: 1 Unbekannter Wert 0001
+Choice: 2 25%
+Choice: 3 Unbekannter Wert 0003
+END
+/main/capturesettings/filenrsequencing
+Label: Bildnummer Zählung
+Readonly: 0
+Type: RADIO
+Current: An
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/capturesettings/modelflash
+Label: Modellierblitz
+Readonly: 0
+Type: RADIO
+Current: An
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/capturesettings/viewfindergrid
+Label: Gitterlinien im Sucher
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/capturesettings/imagerotationflag
+Label: Rotationsmarkierung
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/capturesettings/nocfcardrelease
+Label: Auslösen ohne CF Karte
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/capturesettings/flashmodemanualpower
+Label: Blitzmodus mit manuelle Energie
+Readonly: 0
+Type: RADIO
+Current: Voll
+Choice: 0 Voll
+Choice: 1 1/2
+Choice: 2 1/4
+Choice: 3 1/8
+Choice: 4 1/16
+Choice: 5 1/32
+Choice: 6 Unbekannter Wert 0006
+Choice: 7 Unbekannter Wert 0007
+Choice: 8 Unbekannter Wert 0008
+Choice: 9 Unbekannter Wert 0009
+Choice: 10 Unbekannter Wert 000a
+Choice: 11 Unbekannter Wert 000b
+Choice: 12 Unbekannter Wert 000c
+Choice: 13 Unbekannter Wert 000d
+Choice: 14 Unbekannter Wert 000e
+Choice: 15 Unbekannter Wert 000f
+Choice: 16 Unbekannter Wert 0010
+Choice: 17 Unbekannter Wert 0011
+Choice: 18 Unbekannter Wert 0012
+Choice: 19 Unbekannter Wert 0013
+Choice: 20 Unbekannter Wert 0014
+Choice: 21 Unbekannter Wert 0015
+END
+/main/capturesettings/autofocusarea
+Label: Autofokusbereich
+Readonly: 0
+Type: RADIO
+Current: Mitte
+Choice: 0 Mitte
+Choice: 1 Oben
+Choice: 2 Unten
+Choice: 3 Links
+Choice: 4 Rechts
+Choice: 5 Unbekannter Wert 0005
+Choice: 6 Unbekannter Wert 0006
+Choice: 7 Unbekannter Wert 0007
+Choice: 8 Unbekannter Wert 0008
+Choice: 9 Unbekannter Wert 0009
+Choice: 10 Unbekannter Wert 000a
+Choice: 11 Unbekannter Wert 000b
+Choice: 12 Unbekannter Wert 000c
+Choice: 13 Unbekannter Wert 000d
+Choice: 14 Unbekannter Wert 000e
+Choice: 15 Unbekannter Wert 000f
+Choice: 16 Unbekannter Wert 0010
+Choice: 17 Unbekannter Wert 0011
+Choice: 18 Unbekannter Wert 0012
+Choice: 19 Unbekannter Wert 0013
+Choice: 20 Unbekannter Wert 0014
+Choice: 21 Unbekannter Wert 0015
+Choice: 22 Unbekannter Wert 0016
+Choice: 23 Unbekannter Wert 0017
+Choice: 24 Unbekannter Wert 0018
+Choice: 25 Unbekannter Wert 0019
+Choice: 26 Unbekannter Wert 001a
+Choice: 27 Unbekannter Wert 001b
+Choice: 28 Unbekannter Wert 001c
+Choice: 29 Unbekannter Wert 001d
+Choice: 30 Unbekannter Wert 001e
+Choice: 31 Unbekannter Wert 001f
+Choice: 32 Unbekannter Wert 0020
+Choice: 33 Unbekannter Wert 0021
+Choice: 34 Unbekannter Wert 0022
+Choice: 35 Unbekannter Wert 0023
+Choice: 36 Unbekannter Wert 0024
+Choice: 37 Unbekannter Wert 0025
+Choice: 38 Unbekannter Wert 0026
+Choice: 39 Unbekannter Wert 0027
+Choice: 40 Unbekannter Wert 0028
+Choice: 41 Unbekannter Wert 0029
+Choice: 42 Unbekannter Wert 002a
+Choice: 43 Unbekannter Wert 002b
+Choice: 44 Unbekannter Wert 002c
+Choice: 45 Unbekannter Wert 002d
+Choice: 46 Unbekannter Wert 002e
+Choice: 47 Unbekannter Wert 002f
+Choice: 48 Unbekannter Wert 0030
+Choice: 49 Unbekannter Wert 0031
+Choice: 50 Unbekannter Wert 0032
+Choice: 51 Unbekannter Wert 0033
+END
+/main/capturesettings/flashexposurecompensation
+Label: Blitzbelichtungskorrektur
+Readonly: 0
+Type: RANGE
+Current: 0,333333
+Bottom: -3
+Top: 1
+Step: 0,333333
+END
+/main/capturesettings/bracketing
+Label: Abstufung
+Readonly: 0
+Type: RADIO
+Current: Aus
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/capturesettings/bracketmode
+Label: Abstufung
+Readonly: 0
+Type: RADIO
+Current: Blitz/Belichtungszeit
+Choice: 0 Blitz/Belichtungszeit
+Choice: 1 Blitz/Belichtungszeit/Blende
+Choice: 2 Blitz/Blende
+Choice: 3 nur Blitz
+END
+/main/capturesettings/evstep
+Label: EV-Schritt
+Readonly: 0
+Type: RADIO
+Current: 1/3
+Choice: 0 1/3
+Choice: 1 1/2
+Choice: 2 Unbekannter Wert 0002
+END
+/main/capturesettings/bracketset
+Label: Abstufungsbereich
+Readonly: 0
+Type: RADIO
+Current: AE & Blitz
+Choice: 0 AE & Blitz
+Choice: 1 nur AE
+Choice: 2 nur Blitz
+Choice: 3 Weißabgleichabstufung
+Choice: 4 ADL Abstufung
+END
+/main/capturesettings/bracketorder
+Label: Abstufungsrichtung
+Readonly: 0
+Type: RADIO
+Current: MTR > Unter
+Choice: 0 MTR > Unter
+Choice: 1 Unter > MTR
+END
+/main/capturesettings/aebracketingstep
+Label: AE Bracketing Step
+Readonly: 0
+Type: RADIO
+Current: 1 EV
+Choice: 0 1/3 EV
+Choice: 1 1/2 EV
+Choice: 2 2/3 EV
+Choice: 3 1 EV
+END
+/main/capturesettings/wbbracketingstep
+Label: WB Bracketing Step
+Readonly: 1
+Type: RADIO
+Current: 1 EV
+Choice: 0 1 EV
+Choice: 1 2 EV
+Choice: 2 3 EV
+END
+/main/capturesettings/aebracketingpattern
+Label: AE Bracketing Pattern
+Readonly: 0
+Type: RADIO
+Current: 3 Bilder (normal und 2 überbelichtet)
+Choice: 0 2 Bilder (normal und unterbelichtet)
+Choice: 1 2 Bilder (normal und überbelichtet)
+Choice: 2 3 Bilder (normal und 2 unterbelichtet)
+Choice: 3 3 Bilder (normal und 2 überbelichtet)
+Choice: 4 3 Bilder (normal, unter- und überbelichtet)
+Choice: 5 5 Bilder (normal, 2 unter- und 2 überbelichtet)
+Choice: 6 7 Bilder (normal, 3 unter- und 3 überbelichtet)
+Choice: 7 9 Bilder (normal, 4 unter- und 4 überbelichtet)
+END
+/main/capturesettings/wbbracketingpattern
+Label: WB Bracketing Pattern
+Readonly: 1
+Type: RADIO
+Current: 3 Bilder (normal und 2 überbelichtet)
+Choice: 0 2 Bilder (normal und unterbelichtet)
+Choice: 1 2 Bilder (normal und überbelichtet)
+Choice: 2 3 Bilder (normal und 2 unterbelichtet)
+Choice: 3 3 Bilder (normal und 2 überbelichtet)
+Choice: 4 3 Bilder (normal, unter- und überbelichtet)
+Choice: 5 5 Bilder (normal, 2 unter- und 2 überbelichtet)
+Choice: 6 7 Bilder (normal, 3 unter- und 3 überbelichtet)
+Choice: 7 9 Bilder (normal, 4 unter- und 4 überbelichtet)
+END
+/main/capturesettings/aebracketingcount
+Label: AE Bracketing Count
+Readonly: 1
+Type: RANGE
+Current: 1
+Bottom: 1
+Top: 9
+Step: 1
+END
+/main/capturesettings/adlbracketingpattern
+Label: ADL Bracketing Pattern
+Readonly: 1
+Type: RADIO
+Current: 2 Aufnahmen (Aus -> Benutzereinstellung)
+Choice: 0 2 Aufnahmen (Aus -> Benutzereinstellung)
+Choice: 1 3 Aufnahmen (Aus -> Niedrig -> Benutzereinstellung)
+Choice: 2 4 Aufnahmen (Aus -> Niedrig -> Normal -> Hoch)
+Choice: 3 5 Aufnahmen (Aus -> Niedrig -> Normal -> Hoch -> Extra Hoch)
+END
+/main/capturesettings/adlbracketingstep
+Label: ADL Bracketing Step
+Readonly: 1
+Type: RADIO
+Current: Auto
+Choice: 0 Auto
+Choice: 1 Niedrig
+Choice: 2 Normal
+Choice: 3 Hoch
+Choice: 4 Extra hoch
+END
+/main/capturesettings/wbpresetcomment1
+Label: WB Preset Comment 1
+Readonly: 0
+Type: TEXT
+Current:                                     
+END
+/main/capturesettings/wbpresetcomment2
+Label: WB Preset Comment 2
+Readonly: 0
+Type: TEXT
+Current:                                     
+END
+/main/capturesettings/wbpresetcomment3
+Label: WB Preset Comment 3
+Readonly: 0
+Type: TEXT
+Current:                                     
+END
+/main/capturesettings/wbpresetcomment4
+Label: WB Preset Comment 4
+Readonly: 0
+Type: TEXT
+Current:                                     
+END
+/main/capturesettings/burstnumber
+Label: Bildzahl im Burstmodus
+Readonly: 0
+Type: RANGE
+Current: 1
+Bottom: 1
+Top: 100
+Step: 1
+END
+/main/capturesettings/maximumshots
+Label: Maximale Bildanzahl
+Readonly: 1
+Type: RANGE
+Current: 20
+Bottom: 0
+Top: 42
+Step: 1
+END
+/main/capturesettings/autowhitebias
+Label: Automatische Weißabgleichkorrektur
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/capturesettings/tungstenwhitebias
+Label: Weißabgleich
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/capturesettings/flourescentwhitebias
+Label: Floureszierend Weißabgleich Abweichung
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/capturesettings/daylightwhitebias
+Label: Tageslicht-Weißabgleichkorrektur
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/capturesettings/flashwhitebias
+Label: Blitz-Weißabgleichkorrektur
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/capturesettings/cloudywhitebias
+Label: Bewölkt-Weißabgleichkorrektur
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/capturesettings/shadewhitebias
+Label: Schattig-Weißabgleichkorrektur
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/capturesettings/whitebiaspresetno
+Label: Weißabgleich Abweichung Preset Nr
+Readonly: 0
+Type: RADIO
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/capturesettings/whitebiaspreset0
+Label: Weißabgleich Abweichung Preset 0
+Readonly: 1
+Type: TEXT
+Current: 26214735
+END
+/main/capturesettings/whitebiaspreset1
+Label: Weißabgleich Abweichung Preset 1
+Readonly: 1
+Type: TEXT
+Current: 26214735
+END
+/main/capturesettings/whitebiaspreset2
+Label: Weißabgleich Abweichung Preset 2
+Readonly: 1
+Type: TEXT
+Current: 26214735
+END
+/main/capturesettings/whitebiaspreset3
+Label: Weißabgleich Abweichung Preset 3
+Readonly: 1
+Type: TEXT
+Current: 26214735
+END
+/main/capturesettings/whitebiaspreset4
+Label: Weißabgleich Abweichung Preset 4
+Readonly: 1
+Type: TEXT
+Current: 26214735
+END
+/main/capturesettings/selftimerdelay
+Label: Selbstauslöserzeit
+Readonly: 0
+Type: RADIO
+Current: 10 Sekunden
+Choice: 0 2 Sekunden
+Choice: 1 5 Sekunden
+Choice: 2 10 Sekunden
+Choice: 3 20 Sekunden
+END
+/main/capturesettings/centerweightsize
+Label: Mittelpunkt/Gewichtet Bereich
+Readonly: 0
+Type: RADIO
+Current: 8 mm
+Choice: 0 6 mm
+Choice: 1 8 mm
+Choice: 2 10 mm
+Choice: 3 12 mm
+Choice: 4 Durchschnitt
+END
+/main/capturesettings/microphone
+Label: Mikrofon
+Readonly: 0
+Type: RADIO
+Current: Auto Empfindlichkeit
+Choice: 0 Auto Empfindlichkeit
+Choice: 1 Hohe Empfindlichkeit
+Choice: 2 Mittlere Empfindlichkeit
+Choice: 3 Niedrige Empfindlichkeit
+Choice: 4 Mikrofon aus
+END
+/main/capturesettings/reverseindicators
+Label: Vertauschte Indikatoren
+Readonly: 0
+Type: RADIO
+Current: An
+Choice: 0 An
+Choice: 1 Aus
+END
+/main/other/5001
+Label: Akkuladung
+Readonly: 1
+Type: MENU
+Current: 100
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+Choice: 23 23
+Choice: 24 24
+Choice: 25 25
+Choice: 26 26
+Choice: 27 27
+Choice: 28 28
+Choice: 29 29
+Choice: 30 30
+Choice: 31 31
+Choice: 32 32
+Choice: 33 33
+Choice: 34 34
+Choice: 35 35
+Choice: 36 36
+Choice: 37 37
+Choice: 38 38
+Choice: 39 39
+Choice: 40 40
+Choice: 41 41
+Choice: 42 42
+Choice: 43 43
+Choice: 44 44
+Choice: 45 45
+Choice: 46 46
+Choice: 47 47
+Choice: 48 48
+Choice: 49 49
+Choice: 50 50
+Choice: 51 51
+Choice: 52 52
+Choice: 53 53
+Choice: 54 54
+Choice: 55 55
+Choice: 56 56
+Choice: 57 57
+Choice: 58 58
+Choice: 59 59
+Choice: 60 60
+Choice: 61 61
+Choice: 62 62
+Choice: 63 63
+Choice: 64 64
+Choice: 65 65
+Choice: 66 66
+Choice: 67 67
+Choice: 68 68
+Choice: 69 69
+Choice: 70 70
+Choice: 71 71
+Choice: 72 72
+Choice: 73 73
+Choice: 74 74
+Choice: 75 75
+Choice: 76 76
+Choice: 77 77
+Choice: 78 78
+Choice: 79 79
+Choice: 80 80
+Choice: 81 81
+Choice: 82 82
+Choice: 83 83
+Choice: 84 84
+Choice: 85 85
+Choice: 86 86
+Choice: 87 87
+Choice: 88 88
+Choice: 89 89
+Choice: 90 90
+Choice: 91 91
+Choice: 92 92
+Choice: 93 93
+Choice: 94 94
+Choice: 95 95
+Choice: 96 96
+Choice: 97 97
+Choice: 98 98
+Choice: 99 99
+Choice: 100 100
+END
+/main/other/5003
+Label: Bildgröße
+Readonly: 0
+Type: MENU
+Current: 4288x2848
+Choice: 0 4288x2848
+Choice: 1 3216x2136
+Choice: 2 2144x1424
+END
+/main/other/5004
+Label: Kompressionseinstellung
+Readonly: 0
+Type: MENU
+Current: 2
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+END
+/main/other/5005
+Label: Weißabgleich
+Readonly: 0
+Type: MENU
+Current: 2
+Choice: 0 2
+Choice: 1 4
+Choice: 2 5
+Choice: 3 6
+Choice: 4 7
+Choice: 5 32784
+Choice: 6 32785
+Choice: 7 32786
+Choice: 8 32787
+END
+/main/other/5007
+Label: F-Nummer
+Readonly: 0
+Type: MENU
+Current: 280
+Choice: 0 280
+Choice: 1 320
+Choice: 2 350
+Choice: 3 400
+Choice: 4 450
+Choice: 5 500
+Choice: 6 560
+Choice: 7 630
+Choice: 8 710
+Choice: 9 800
+Choice: 10 900
+Choice: 11 1000
+Choice: 12 1100
+Choice: 13 1300
+Choice: 14 1400
+Choice: 15 1600
+Choice: 16 1800
+Choice: 17 2000
+Choice: 18 2200
+END
+/main/other/5008
+Label: Fokus Tiefe
+Readonly: 1
+Type: MENU
+Current: 2800
+Choice: 0 2800
+END
+/main/other/500a
+Label: Fokusmodus
+Readonly: 1
+Type: MENU
+Current: 32785
+Choice: 0 1
+Choice: 1 32784
+Choice: 2 32785
+END
+/main/other/500b
+Label: Belichtungsmessmodus
+Readonly: 1
+Type: MENU
+Current: 4
+Choice: 0 2
+Choice: 1 3
+Choice: 2 4
+END
+/main/other/500c
+Label: Blitzmodus
+Readonly: 0
+Type: MENU
+Current: 32784
+Choice: 0 4
+Choice: 1 32784
+Choice: 2 32786
+END
+/main/other/500d
+Label: Belichtungszeit
+Readonly: 0
+Type: MENU
+Current: 1000
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+Choice: 4 5
+Choice: 5 6
+Choice: 6 8
+Choice: 7 10
+Choice: 8 12
+Choice: 9 15
+Choice: 10 20
+Choice: 11 25
+Choice: 12 31
+Choice: 13 40
+Choice: 14 50
+Choice: 15 62
+Choice: 16 80
+Choice: 17 100
+Choice: 18 125
+Choice: 19 166
+Choice: 20 200
+Choice: 21 250
+Choice: 22 333
+Choice: 23 400
+Choice: 24 500
+Choice: 25 666
+Choice: 26 769
+Choice: 27 1000
+Choice: 28 1250
+Choice: 29 1666
+Choice: 30 2000
+Choice: 31 2500
+Choice: 32 3333
+Choice: 33 4000
+Choice: 34 5000
+Choice: 35 6250
+Choice: 36 7692
+Choice: 37 10000
+Choice: 38 13000
+Choice: 39 16000
+Choice: 40 20000
+Choice: 41 25000
+Choice: 42 30000
+Choice: 43 40000
+Choice: 44 50000
+Choice: 45 60000
+Choice: 46 80000
+Choice: 47 100000
+Choice: 48 130000
+Choice: 49 150000
+Choice: 50 200000
+Choice: 51 250000
+Choice: 52 300000
+Choice: 53 -1
+END
+/main/other/500e
+Label: Belichtungsprogrammmodus
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+END
+/main/other/500f
+Label: Belichtungsindex (ISO-Filmempfindlichkeit)
+Readonly: 0
+Type: MENU
+Current: 250
+Choice: 0 100
+Choice: 1 125
+Choice: 2 160
+Choice: 3 200
+Choice: 4 250
+Choice: 5 320
+Choice: 6 400
+Choice: 7 500
+Choice: 8 640
+Choice: 9 800
+Choice: 10 1000
+Choice: 11 1250
+Choice: 12 1600
+Choice: 13 2000
+Choice: 14 2500
+Choice: 15 3200
+Choice: 16 4000
+Choice: 17 5000
+Choice: 18 6400
+END
+/main/other/5010
+Label: Belichtungskorrektur
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 -5000
+Choice: 1 -4666
+Choice: 2 -4333
+Choice: 3 -4000
+Choice: 4 -3666
+Choice: 5 -3333
+Choice: 6 -3000
+Choice: 7 -2666
+Choice: 8 -2333
+Choice: 9 -2000
+Choice: 10 -1666
+Choice: 11 -1333
+Choice: 12 -1000
+Choice: 13 -666
+Choice: 14 -333
+Choice: 15 0
+Choice: 16 333
+Choice: 17 666
+Choice: 18 1000
+Choice: 19 1333
+Choice: 20 1666
+Choice: 21 2000
+Choice: 22 2333
+Choice: 23 2666
+Choice: 24 3000
+Choice: 25 3333
+Choice: 26 3666
+Choice: 27 4000
+Choice: 28 4333
+Choice: 29 4666
+Choice: 30 5000
+END
+/main/other/5011
+Label: Datum und Zeit
+Readonly: 0
+Type: TEXT
+Current: 20240512T114804
+END
+/main/other/5013
+Label: Bildaufnahme Modus
+Readonly: 1
+Type: MENU
+Current: 1
+Choice: 0 1
+Choice: 1 2
+Choice: 2 32784
+Choice: 3 32785
+Choice: 4 32786
+Choice: 5 32790
+END
+/main/other/5018
+Label: Bildzahl im Burstmodus
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+Choice: 4 5
+Choice: 5 6
+Choice: 6 7
+Choice: 7 8
+Choice: 8 9
+Choice: 9 10
+Choice: 10 11
+Choice: 11 12
+Choice: 12 13
+Choice: 13 14
+Choice: 14 15
+Choice: 15 16
+Choice: 16 17
+Choice: 17 18
+Choice: 18 19
+Choice: 19 20
+Choice: 20 21
+Choice: 21 22
+Choice: 22 23
+Choice: 23 24
+Choice: 24 25
+Choice: 25 26
+Choice: 26 27
+Choice: 27 28
+Choice: 28 29
+Choice: 29 30
+Choice: 30 31
+Choice: 31 32
+Choice: 32 33
+Choice: 33 34
+Choice: 34 35
+Choice: 35 36
+Choice: 36 37
+Choice: 37 38
+Choice: 38 39
+Choice: 39 40
+Choice: 40 41
+Choice: 41 42
+Choice: 42 43
+Choice: 43 44
+Choice: 44 45
+Choice: 45 46
+Choice: 46 47
+Choice: 47 48
+Choice: 48 49
+Choice: 49 50
+Choice: 50 51
+Choice: 51 52
+Choice: 52 53
+Choice: 53 54
+Choice: 54 55
+Choice: 55 56
+Choice: 56 57
+Choice: 57 58
+Choice: 58 59
+Choice: 59 60
+Choice: 60 61
+Choice: 61 62
+Choice: 62 63
+Choice: 63 64
+Choice: 64 65
+Choice: 65 66
+Choice: 66 67
+Choice: 67 68
+Choice: 68 69
+Choice: 69 70
+Choice: 70 71
+Choice: 71 72
+Choice: 72 73
+Choice: 73 74
+Choice: 74 75
+Choice: 75 76
+Choice: 76 77
+Choice: 77 78
+Choice: 78 79
+Choice: 79 80
+Choice: 80 81
+Choice: 81 82
+Choice: 82 83
+Choice: 83 84
+Choice: 84 85
+Choice: 85 86
+Choice: 86 87
+Choice: 87 88
+Choice: 88 89
+Choice: 89 90
+Choice: 90 91
+Choice: 91 92
+Choice: 92 93
+Choice: 93 94
+Choice: 94 95
+Choice: 95 96
+Choice: 96 97
+Choice: 97 98
+Choice: 98 99
+Choice: 99 100
+END
+/main/other/501c
+Label: Entfernungs Messungs Modus
+Readonly: 1
+Type: MENU
+Current: 32785
+Choice: 0 2
+Choice: 1 32784
+Choice: 2 32785
+END
+/main/other/501e
+Label: Künstler
+Readonly: 1
+Type: TEXT
+Current: Stefan Blaser
+END
+/main/other/501f
+Label: Copyright Information
+Readonly: 1
+Type: TEXT
+Current: Stefan Blaser
+END
+/main/other/d406
+Label: PTP Property 0xd406
+Readonly: 0
+Type: TEXT
+Current: Windows/6.0.5330.0 MTPClassDriver/6.0.5330.0
+END
+/main/other/d407
+Label: PTP Property 0xd407
+Readonly: 1
+Type: TEXT
+Current: 1
+END
+/main/other/d010
+Label: Aufnahme Bank
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d011
+Label: Aufnahme Bankname A
+Readonly: 0
+Type: TEXT
+Current:                     
+END
+/main/other/d012
+Label: Aufnahme Bankname B
+Readonly: 0
+Type: TEXT
+Current:                     
+END
+/main/other/d013
+Label: Aufnahme Bankname C
+Readonly: 0
+Type: TEXT
+Current:                     
+END
+/main/other/d014
+Label: Aufnahme Bankname D
+Readonly: 0
+Type: TEXT
+Current:                     
+END
+/main/other/d015
+Label: Setze Menübank 0 zurück
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d016
+Label: RAW.Komprimierung
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d017
+Label: Automatische Weißabgleichkorrektur
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/other/d018
+Label: Weißabgleich
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/other/d019
+Label: Floureszierend Weißabgleich Abweichung
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/other/d01a
+Label: Tageslicht-Weißabgleichkorrektur
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/other/d01b
+Label: Blitz-Weißabgleichkorrektur
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/other/d01c
+Label: Bewölkt-Weißabgleichkorrektur
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/other/d01d
+Label: Schattig-Weißabgleichkorrektur
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/other/d01e
+Label: Farbtemperatur bei Weißabgleich
+Readonly: 0
+Type: MENU
+Current: 20
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+Choice: 23 23
+Choice: 24 24
+Choice: 25 25
+Choice: 26 26
+Choice: 27 27
+Choice: 28 28
+Choice: 29 29
+Choice: 30 30
+END
+/main/other/d01f
+Label: Voreinstellung Weißabgleich Nummer
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+END
+/main/other/d020
+Label: Voreinstellung des Weißabgleichs Name 0
+Readonly: 0
+Type: TEXT
+Current:                                     
+END
+/main/other/d021
+Label: Voreinstellung des Weißabgleichs Name 1
+Readonly: 0
+Type: TEXT
+Current:                                     
+END
+/main/other/d022
+Label: Voreinstellung des Weißabgleichs Name 2
+Readonly: 0
+Type: TEXT
+Current:                                     
+END
+/main/other/d023
+Label: Voreinstellung des Weißabgleichs Name 3
+Readonly: 0
+Type: TEXT
+Current:                                     
+END
+/main/other/d024
+Label: Voreinstellung des Weißabgleichs Name 4
+Readonly: 0
+Type: TEXT
+Current:                                     
+END
+/main/other/d025
+Label: Voreinstellung des Weißabgleichs Wert 0
+Readonly: 1
+Type: TEXT
+Current: 26214735
+END
+/main/other/d026
+Label: Voreinstellung des Weißabgleichs Wert 1
+Readonly: 1
+Type: TEXT
+Current: 26214735
+END
+/main/other/d027
+Label: Voreinstellung des Weißabgleichs Wert 2
+Readonly: 1
+Type: TEXT
+Current: 26214735
+END
+/main/other/d028
+Label: Voreinstellung des Weißabgleichs Wert 3
+Readonly: 1
+Type: TEXT
+Current: 26214735
+END
+/main/other/d029
+Label: Voreinstellung des Weißabgleichs Wert 4
+Readonly: 1
+Type: TEXT
+Current: 26214735
+END
+/main/other/d02e
+Label: Linsen-Fokustiefe (nicht-CPU)
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+Choice: 23 23
+Choice: 24 24
+Choice: 25 25
+Choice: 26 26
+Choice: 27 27
+Choice: 28 28
+Choice: 29 29
+Choice: 30 30
+Choice: 31 31
+Choice: 32 32
+Choice: 33 33
+Choice: 34 34
+Choice: 35 35
+Choice: 36 36
+Choice: 37 37
+Choice: 38 38
+Choice: 39 39
+Choice: 40 40
+END
+/main/other/d02f
+Label: Maximale Blende der Linse (Nicht CPU)
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+END
+/main/other/d031
+Label: Richtlinie der JPEG-Kompression
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d032
+Label: Farbraum
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d040
+Label: PTP_DPC_NIKON_CSMMenuBankSelect
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d041
+Label: Menübank Name A
+Readonly: 0
+Type: TEXT
+Current:                     
+END
+/main/other/d042
+Label: Menübank Name B
+Readonly: 0
+Type: TEXT
+Current:                     
+END
+/main/other/d043
+Label: Menübank Name C
+Readonly: 0
+Type: TEXT
+Current:                     
+END
+/main/other/d044
+Label: Menübank Name D
+Readonly: 0
+Type: TEXT
+Current:                     
+END
+/main/other/d045
+Label: Setze Menübank zurück
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d048
+Label: PTP_DPC_NIKON_A1AFCModePriority
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d049
+Label: PTP_DPC_NIKON_A2AFSModePriority
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d04b
+Label: PTP_DPC_NIKON_A4AFActivation
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d04f
+Label: Fokus Bereich Wraparound
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d050
+Label: Vertikaler Autofokus An
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+END
+/main/other/d051
+Label: AF-Sperre An
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d053
+Label: Copyright aktivieren
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d054
+Label: Auto ISO
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d055
+Label: Belichtungs ISO Schritt
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d056
+Label: Belichtungs-Schritt
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d057
+Label: Belichtungskorrektur (EV)
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d058
+Label: Belichtungsausgleich
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d059
+Label: Gewichtete Bildmittenbereich
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+END
+/main/other/d05a
+Label: Belichtungs Basis Matrix
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 -6
+Choice: 1 -5
+Choice: 2 -4
+Choice: 3 -3
+Choice: 4 -2
+Choice: 5 -1
+Choice: 6 0
+Choice: 7 1
+Choice: 8 2
+Choice: 9 3
+Choice: 10 4
+Choice: 11 5
+Choice: 12 6
+END
+/main/other/d05b
+Label: Belichtungs Basis Zentrum
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 -6
+Choice: 1 -5
+Choice: 2 -4
+Choice: 3 -3
+Choice: 4 -2
+Choice: 5 -1
+Choice: 6 0
+Choice: 7 1
+Choice: 8 2
+Choice: 9 3
+Choice: 10 4
+Choice: 11 5
+Choice: 12 6
+END
+/main/other/d05c
+Label: Belichtungs Basis Punkt
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 -6
+Choice: 1 -5
+Choice: 2 -4
+Choice: 3 -3
+Choice: 4 -2
+Choice: 5 -1
+Choice: 6 0
+Choice: 7 1
+Choice: 8 2
+Choice: 9 3
+Choice: 10 4
+Choice: 11 5
+Choice: 12 6
+END
+/main/other/d05e
+Label: Belichtungs Lock
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d05f
+Label: Fokus Lock
+Readonly: 0
+Type: MENU
+Current: 3
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+END
+/main/other/d062
+Label: Zeit für automatische Sensor Abschaltung
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+END
+/main/other/d063
+Label: Selbstauslöserverzögerung
+Readonly: 0
+Type: MENU
+Current: 2
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d065
+Label: Img Conf Time
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+END
+/main/other/d067
+Label: Neigung
+Readonly: 1
+Type: TEXT
+Current: 55469
+END
+/main/other/d068
+Label: Zeit zwischen zwei Fotos
+Readonly: 0
+Type: MENU
+Current: 4
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+END
+/main/other/d069
+Label: Maximale Bildanzahl
+Readonly: 0
+Type: MENU
+Current: 100
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+Choice: 4 5
+Choice: 5 6
+Choice: 6 7
+Choice: 7 8
+Choice: 8 9
+Choice: 9 10
+Choice: 10 11
+Choice: 11 12
+Choice: 12 13
+Choice: 13 14
+Choice: 14 15
+Choice: 15 16
+Choice: 16 17
+Choice: 17 18
+Choice: 18 19
+Choice: 19 20
+Choice: 20 21
+Choice: 21 22
+Choice: 22 23
+Choice: 23 24
+Choice: 24 25
+Choice: 25 26
+Choice: 26 27
+Choice: 27 28
+Choice: 28 29
+Choice: 29 30
+Choice: 30 31
+Choice: 31 32
+Choice: 32 33
+Choice: 33 34
+Choice: 34 35
+Choice: 35 36
+Choice: 36 37
+Choice: 37 38
+Choice: 38 39
+Choice: 39 40
+Choice: 40 41
+Choice: 41 42
+Choice: 42 43
+Choice: 43 44
+Choice: 44 45
+Choice: 45 46
+Choice: 46 47
+Choice: 47 48
+Choice: 48 49
+Choice: 49 50
+Choice: 50 51
+Choice: 51 52
+Choice: 52 53
+Choice: 53 54
+Choice: 54 55
+Choice: 55 56
+Choice: 56 57
+Choice: 57 58
+Choice: 58 59
+Choice: 59 60
+Choice: 60 61
+Choice: 61 62
+Choice: 62 63
+Choice: 63 64
+Choice: 64 65
+Choice: 65 66
+Choice: 66 67
+Choice: 67 68
+Choice: 68 69
+Choice: 69 70
+Choice: 70 71
+Choice: 71 72
+Choice: 72 73
+Choice: 73 74
+Choice: 74 75
+Choice: 75 76
+Choice: 76 77
+Choice: 77 78
+Choice: 78 79
+Choice: 79 80
+Choice: 80 81
+Choice: 81 82
+Choice: 82 83
+Choice: 83 84
+Choice: 84 85
+Choice: 85 86
+Choice: 86 87
+Choice: 87 88
+Choice: 88 89
+Choice: 89 90
+Choice: 90 91
+Choice: 91 92
+Choice: 92 93
+Choice: 93 94
+Choice: 94 95
+Choice: 95 96
+Choice: 96 97
+Choice: 97 98
+Choice: 98 99
+Choice: 99 100
+END
+/main/other/d06a
+Label: Belichtungs Verzögerungs Modus
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d06b
+Label: Langzeitbelichtung-Rauschunterdrückung
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d06c
+Label: Bildnummer Zählung
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d06f
+Label: LCD Beleuchtung
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d070
+Label: Rauschunterdrückung bei hohen ISO
+Readonly: 0
+Type: MENU
+Current: 2
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d071
+Label: Tips auf dem Bildschirm
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d072
+Label: Künstlername
+Readonly: 0
+Type: TEXT
+Current: Stefan Blaser
+END
+/main/other/d073
+Label: Copyright Information
+Readonly: 0
+Type: TEXT
+Current: Stefan Blaser
+END
+/main/other/d074
+Label: Blitzsynchronisations Geschwindigkeit
+Readonly: 0
+Type: MENU
+Current: 2
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+END
+/main/other/d075
+Label: Blitz Belichtungszeit
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+END
+/main/other/d077
+Label: Modellierblitz
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d078
+Label: Abstufungsbereich
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+END
+/main/other/d079
+Label: Manueller Abstufungsmodus
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d07a
+Label: Abstufungsrichtung
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d080
+Label: Mittlerer Button Aufnahme Modus
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d081
+Label: Mittlerer Button Playback Modus
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d082
+Label: Multiselektor
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d083
+Label: Photo Info. Playback
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d084
+Label: Weise Func. Button zu
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+END
+/main/other/d085
+Label: Passe Kommando Dials an
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d086
+Label: Umgedrehtes Kommando Rad
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d087
+Label: Blendeneinstellung
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d088
+Label: Menüs und Abspielen
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d089
+Label: Knöpfe und Räder
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d08a
+Label: Auslösen ohne CF Karte
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d08b
+Label: Mittlerer Button Zoom Faktor
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d08c
+Label: Funktions Knopf 2
+Readonly: 0
+Type: MENU
+Current: 5
+Choice: 0 0
+Choice: 1 2
+Choice: 2 5
+Choice: 3 6
+Choice: 4 7
+END
+/main/other/d08d
+Label: AF-Bereichspunkt
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d090
+Label: Bild Kommentar
+Readonly: 0
+Type: TEXT
+Current:                                     
+END
+/main/other/d091
+Label: Bild Kommentar anschalten
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d092
+Label: Bildrotationsflag
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d093
+Label: Manuell gesetzte Objektivnummer
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+END
+/main/other/d094
+Label: PTP Property 0xd094
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d095
+Label: PTP Property 0xd095
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 -20
+Choice: 1 -19
+Choice: 2 -18
+Choice: 3 -17
+Choice: 4 -16
+Choice: 5 -15
+Choice: 6 -14
+Choice: 7 -13
+Choice: 8 -12
+Choice: 9 -11
+Choice: 10 -10
+Choice: 11 -9
+Choice: 12 -8
+Choice: 13 -7
+Choice: 14 -6
+Choice: 15 -5
+Choice: 16 -4
+Choice: 17 -3
+Choice: 18 -2
+Choice: 19 -1
+Choice: 20 0
+Choice: 21 1
+Choice: 22 2
+Choice: 23 3
+Choice: 24 4
+Choice: 25 5
+Choice: 26 6
+Choice: 27 7
+Choice: 28 8
+Choice: 29 9
+Choice: 30 10
+Choice: 31 11
+Choice: 32 12
+Choice: 33 13
+Choice: 34 14
+Choice: 35 15
+Choice: 36 16
+Choice: 37 17
+Choice: 38 18
+Choice: 39 19
+Choice: 40 20
+END
+/main/other/d096
+Label: PTP Property 0xd096
+Readonly: 0
+Type: MENU
+Current: 21
+Choice: 0 -20
+Choice: 1 -19
+Choice: 2 -18
+Choice: 3 -17
+Choice: 4 -16
+Choice: 5 -15
+Choice: 6 -14
+Choice: 7 -13
+Choice: 8 -12
+Choice: 9 -11
+Choice: 10 -10
+Choice: 11 -9
+Choice: 12 -8
+Choice: 13 -7
+Choice: 14 -6
+Choice: 15 -5
+Choice: 16 -4
+Choice: 17 -3
+Choice: 18 -2
+Choice: 19 -1
+Choice: 20 0
+Choice: 21 1
+Choice: 22 2
+Choice: 23 3
+Choice: 24 4
+Choice: 25 5
+Choice: 26 6
+Choice: 27 7
+Choice: 28 8
+Choice: 29 9
+Choice: 30 10
+Choice: 31 11
+Choice: 32 12
+Choice: 33 13
+Choice: 34 14
+Choice: 35 15
+Choice: 36 16
+Choice: 37 17
+Choice: 38 18
+Choice: 39 19
+Choice: 40 20
+Choice: 41 21
+END
+/main/other/d097
+Label: PTP Property 0xd097
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+END
+/main/other/d098
+Label: PTP Property 0xd098
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+Choice: 23 23
+Choice: 24 24
+Choice: 25 25
+Choice: 26 26
+Choice: 27 27
+Choice: 28 28
+Choice: 29 29
+Choice: 30 30
+Choice: 31 31
+Choice: 32 32
+Choice: 33 33
+Choice: 34 34
+Choice: 35 35
+Choice: 36 36
+Choice: 37 37
+Choice: 38 38
+Choice: 39 39
+Choice: 40 40
+Choice: 41 41
+Choice: 42 42
+Choice: 43 43
+Choice: 44 44
+Choice: 45 45
+Choice: 46 46
+Choice: 47 47
+Choice: 48 48
+Choice: 49 49
+Choice: 50 50
+Choice: 51 51
+Choice: 52 52
+Choice: 53 53
+Choice: 54 54
+Choice: 55 55
+Choice: 56 56
+Choice: 57 57
+Choice: 58 58
+Choice: 59 59
+Choice: 60 60
+Choice: 61 61
+Choice: 62 62
+Choice: 63 63
+Choice: 64 64
+Choice: 65 65
+Choice: 66 66
+Choice: 67 67
+Choice: 68 68
+Choice: 69 69
+Choice: 70 70
+Choice: 71 71
+Choice: 72 72
+Choice: 73 73
+Choice: 74 74
+Choice: 75 75
+Choice: 76 76
+Choice: 77 77
+Choice: 78 78
+Choice: 79 79
+Choice: 80 80
+Choice: 81 81
+Choice: 82 82
+Choice: 83 83
+Choice: 84 84
+Choice: 85 85
+Choice: 86 86
+Choice: 87 87
+Choice: 88 88
+Choice: 89 89
+Choice: 90 90
+Choice: 91 91
+Choice: 92 92
+Choice: 93 93
+Choice: 94 94
+Choice: 95 95
+Choice: 96 96
+Choice: 97 97
+Choice: 98 98
+Choice: 99 99
+Choice: 100 100
+END
+/main/other/d099
+Label: PTP Property 0xd099
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+END
+/main/other/d09a
+Label: PTP Property 0xd09a
+Readonly: 1
+Type: MENU
+Current: 20
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+END
+/main/other/d09b
+Label: PTP Property 0xd09b
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d0a0
+Label: Film Bildschirmgrösse
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d0a2
+Label: Movie Microphone
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+END
+/main/other/d0a3
+Label: Movie Card Slot
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d0c0
+Label: Aktivierung der Abstufung
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d0c1
+Label: Belichtungs Abstufung Schritt
+Readonly: 0
+Type: MENU
+Current: 3
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d0c2
+Label: Belichtungs Abstufung Programm
+Readonly: 0
+Type: MENU
+Current: 3
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+END
+/main/other/d0c3
+Label: Automatische Belichtungs Abstufung Anzahl
+Readonly: 1
+Type: MENU
+Current: 1
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+Choice: 4 5
+Choice: 5 6
+Choice: 6 7
+Choice: 7 8
+Choice: 8 9
+END
+/main/other/d0c4
+Label: Automatische Weißabgleich Abweichung Schritt
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d0c5
+Label: Automatische Weißabgleich Abweichung Programm
+Readonly: 1
+Type: MENU
+Current: 3
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+END
+/main/other/d0c6
+Label: ADLBracketingPattern
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d0c7
+Label: ADLBracketingStep
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+END
+/main/other/d0e0
+Label: Objektiv Kennung
+Readonly: 1
+Type: TEXT
+Current: 4
+END
+/main/other/d0e1
+Label: Objektivart
+Readonly: 1
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d0e2
+Label: Objektivtyp
+Readonly: 1
+Type: TEXT
+Current: 0
+END
+/main/other/d0e3
+Label: Minimale Brennweite
+Readonly: 1
+Type: TEXT
+Current: 2800
+END
+/main/other/d0e4
+Label: Maximale Brennweite
+Readonly: 1
+Type: TEXT
+Current: 2800
+END
+/main/other/d0e5
+Label: Maximale Blende bei Minimaler Brennweite
+Readonly: 1
+Type: TEXT
+Current: 280
+END
+/main/other/d0e6
+Label: Maximale Blende bei maximaler Brennweite
+Readonly: 1
+Type: TEXT
+Current: 280
+END
+/main/other/d0f2
+Label: Abschaltzeit für Fotoanzeige
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+END
+/main/other/d0f3
+Label: Abschaltzeit für Menü
+Readonly: 0
+Type: MENU
+Current: 2
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+END
+/main/other/d0f4
+Label: Abschaltzeit Information
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+END
+/main/other/d100
+Label: Nikon Belichtungszeit
+Readonly: 0
+Type: MENU
+Current: 65546
+Choice: 0 73536
+Choice: 1 71936
+Choice: 2 70536
+Choice: 3 69536
+Choice: 4 68736
+Choice: 5 68036
+Choice: 6 67536
+Choice: 7 67136
+Choice: 8 66786
+Choice: 9 66536
+Choice: 10 66336
+Choice: 11 66176
+Choice: 12 66036
+Choice: 13 65936
+Choice: 14 65856
+Choice: 15 65786
+Choice: 16 65736
+Choice: 17 65696
+Choice: 18 65661
+Choice: 19 65636
+Choice: 20 65616
+Choice: 21 65596
+Choice: 22 65586
+Choice: 23 65576
+Choice: 24 65566
+Choice: 25 65561
+Choice: 26 65556
+Choice: 27 65551
+Choice: 28 65549
+Choice: 29 65546
+Choice: 30 65544
+Choice: 31 65542
+Choice: 32 65541
+Choice: 33 65540
+Choice: 34 65539
+Choice: 35 655385
+Choice: 36 65538
+Choice: 37 655376
+Choice: 38 655373
+Choice: 39 65537
+Choice: 40 851978
+Choice: 41 1048586
+Choice: 42 131073
+Choice: 43 1638410
+Choice: 44 196609
+Choice: 45 262145
+Choice: 46 327681
+Choice: 47 393217
+Choice: 48 524289
+Choice: 49 655361
+Choice: 50 851969
+Choice: 51 983041
+Choice: 52 1310721
+Choice: 53 1638401
+Choice: 54 1966081
+Choice: 55 -2
+Choice: 56 -1
+END
+/main/other/d101
+Label: Netzanschluss
+Readonly: 1
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d102
+Label: Warn Status
+Readonly: 1
+Type: TEXT
+Current: 0
+END
+/main/other/d103
+Label: Maximale Bildanzahl
+Readonly: 1
+Type: MENU
+Current: 20
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+Choice: 23 23
+Choice: 24 24
+Choice: 25 25
+Choice: 26 26
+Choice: 27 27
+Choice: 28 28
+Choice: 29 29
+Choice: 30 30
+Choice: 31 31
+Choice: 32 32
+Choice: 33 33
+Choice: 34 34
+Choice: 35 35
+Choice: 36 36
+Choice: 37 37
+Choice: 38 38
+Choice: 39 39
+Choice: 40 40
+Choice: 41 41
+Choice: 42 42
+END
+/main/other/d104
+Label: AF Lock an
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d105
+Label: AE Lock an
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d106
+Label: FV Lock an
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d108
+Label: Aktiver AF Sensor
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+Choice: 23 23
+Choice: 24 24
+Choice: 25 25
+Choice: 26 26
+Choice: 27 27
+Choice: 28 28
+Choice: 29 29
+Choice: 30 30
+Choice: 31 31
+Choice: 32 32
+Choice: 33 33
+Choice: 34 34
+Choice: 35 35
+Choice: 36 36
+Choice: 37 37
+Choice: 38 38
+Choice: 39 39
+Choice: 40 40
+Choice: 41 41
+Choice: 42 42
+Choice: 43 43
+Choice: 44 44
+Choice: 45 45
+Choice: 46 46
+Choice: 47 47
+Choice: 48 48
+Choice: 49 49
+Choice: 50 50
+Choice: 51 51
+END
+/main/other/d109
+Label: Flexibles Programm
+Readonly: 0
+Type: RANGE
+Current: 0
+Bottom: -30
+Top: 30
+Step: 2
+END
+/main/other/d10b
+Label: Aufnahmemedium
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d10c
+Label: USB Geschwindigkeit
+Readonly: 1
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d10d
+Label: CCD Seriennummer
+Readonly: 1
+Type: TEXT
+Current:                     
+END
+/main/other/d10e
+Label: Kameraausrichtung
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d114
+Label: Illum Einstellung
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d120
+Label: Externer Blitz angesteckt
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d121
+Label: Status Externer Blitz
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d122
+Label: Art des externen Blitz
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d124
+Label: Belichtungskorrektur des externen Blitzes
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 -18
+Choice: 1 -17
+Choice: 2 -16
+Choice: 3 -15
+Choice: 4 -14
+Choice: 5 -13
+Choice: 6 -12
+Choice: 7 -11
+Choice: 8 -10
+Choice: 9 -9
+Choice: 10 -8
+Choice: 11 -7
+Choice: 12 -6
+Choice: 13 -5
+Choice: 14 -4
+Choice: 15 -3
+Choice: 16 -2
+Choice: 17 -1
+Choice: 18 0
+Choice: 19 1
+Choice: 20 2
+Choice: 21 3
+Choice: 22 4
+Choice: 23 5
+Choice: 24 6
+Choice: 25 7
+Choice: 26 8
+Choice: 27 9
+Choice: 28 10
+Choice: 29 11
+Choice: 30 12
+Choice: 31 13
+Choice: 32 14
+Choice: 33 15
+Choice: 34 16
+Choice: 35 17
+Choice: 36 18
+END
+/main/other/d125
+Label: Externer Blitzmodus
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+END
+/main/other/d126
+Label: Blitzbelichtungskorrektur
+Readonly: 0
+Type: RANGE
+Current: 2
+Bottom: -18
+Top: 6
+Step: 2
+END
+/main/other/d148
+Label: Slot 2 Speichermodus
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d149
+Label: RAW Bit Modus
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d14e
+Label: Aktives D-Lighting
+Readonly: 0
+Type: MENU
+Current: 4
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+END
+/main/other/d14f
+Label: Fluorescent Type
+Readonly: 0
+Type: MENU
+Current: 3
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+END
+/main/other/d150
+Label: Farbtemperatur einstellen
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/other/d151
+Label: Voreinstellung 0
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/other/d152
+Label: Voreinstellung 1
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/other/d153
+Label: Voreinstellung 2
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/other/d154
+Label: Voreinstellung 3
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/other/d155
+Label: Voreinstellung 4
+Readonly: 0
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+END
+/main/other/d156
+Label: PrimarySlot
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d160
+Label: Autofokus-Signaltonmodus
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d163
+Label: Autofokus Hilfslicht
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d164
+Label: Auto ISO P/A/DVP Einstellung
+Readonly: 0
+Type: MENU
+Current: 21
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+Choice: 23 23
+Choice: 24 24
+Choice: 25 25
+Choice: 26 26
+END
+/main/other/d166
+Label: Ausleuchtung des Autofokus-Bereichs
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d167
+Label: Blitzmodus
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d16c
+Label: Gitterlinien im Sucher
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d16d
+Label: Blitzmodus mit manuelle Energie
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+END
+/main/other/d181
+Label: Warnungs Anzeige
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d182
+Label: Batterietyp
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d183
+Label: ISO Auto High Limit
+Readonly: 0
+Type: MENU
+Current: 3
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+END
+/main/other/d184
+Label: Dynamischer AF-Bereich
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d187
+Label: Info Anzeige Einstellung
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d189
+Label: Vorschau Knopf
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+END
+/main/other/d18a
+Label: Vorschau Knopf 2
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 2
+Choice: 2 5
+Choice: 3 6
+Choice: 4 7
+END
+/main/other/d18b
+Label: AEAF Lock Knopf 2
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 5
+Choice: 2 6
+Choice: 3 7
+END
+/main/other/d18d
+Label: Anzeige
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d18e
+Label: Battery Typ Priorität
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d1a0
+Label: Live View Modus
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d1a2
+Label: Live View Status
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d1a3
+Label: Live View Zoom Faktor
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d1a4
+Label: Live View Verhinderungszustand
+Readonly: 1
+Type: TEXT
+Current: 1
+END
+/main/other/d1b0
+Label: Belichtungs Anzeige Status
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+END
+/main/other/d1b1
+Label: Belichtungs Indikator Status
+Readonly: 1
+Type: MENU
+Current: 20
+Choice: 0 -60
+Choice: 1 -59
+Choice: 2 -58
+Choice: 3 -57
+Choice: 4 -56
+Choice: 5 -55
+Choice: 6 -54
+Choice: 7 -53
+Choice: 8 -52
+Choice: 9 -51
+Choice: 10 -50
+Choice: 11 -49
+Choice: 12 -48
+Choice: 13 -47
+Choice: 14 -46
+Choice: 15 -45
+Choice: 16 -44
+Choice: 17 -43
+Choice: 18 -42
+Choice: 19 -41
+Choice: 20 -40
+Choice: 21 -39
+Choice: 22 -38
+Choice: 23 -37
+Choice: 24 -36
+Choice: 25 -35
+Choice: 26 -34
+Choice: 27 -33
+Choice: 28 -32
+Choice: 29 -31
+Choice: 30 -30
+Choice: 31 -29
+Choice: 32 -28
+Choice: 33 -27
+Choice: 34 -26
+Choice: 35 -25
+Choice: 36 -24
+Choice: 37 -23
+Choice: 38 -22
+Choice: 39 -21
+Choice: 40 -20
+Choice: 41 -19
+Choice: 42 -18
+Choice: 43 -17
+Choice: 44 -16
+Choice: 45 -15
+Choice: 46 -14
+Choice: 47 -13
+Choice: 48 -12
+Choice: 49 -11
+Choice: 50 -10
+Choice: 51 -9
+Choice: 52 -8
+Choice: 53 -7
+Choice: 54 -6
+Choice: 55 -5
+Choice: 56 -4
+Choice: 57 -3
+Choice: 58 -2
+Choice: 59 -1
+Choice: 60 0
+Choice: 61 1
+Choice: 62 2
+Choice: 63 3
+Choice: 64 4
+Choice: 65 5
+Choice: 66 6
+Choice: 67 7
+Choice: 68 8
+Choice: 69 9
+Choice: 70 10
+Choice: 71 11
+Choice: 72 12
+Choice: 73 13
+Choice: 74 14
+Choice: 75 15
+Choice: 76 16
+Choice: 77 17
+Choice: 78 18
+Choice: 79 19
+Choice: 80 20
+Choice: 81 21
+Choice: 82 22
+Choice: 83 23
+Choice: 84 24
+Choice: 85 25
+Choice: 86 26
+Choice: 87 27
+Choice: 88 28
+Choice: 89 29
+Choice: 90 30
+Choice: 91 31
+Choice: 92 32
+Choice: 93 33
+Choice: 94 34
+Choice: 95 35
+Choice: 96 36
+Choice: 97 37
+Choice: 98 38
+Choice: 99 39
+Choice: 100 40
+Choice: 101 41
+Choice: 102 42
+Choice: 103 43
+Choice: 104 44
+Choice: 105 45
+Choice: 106 46
+Choice: 107 47
+Choice: 108 48
+Choice: 109 49
+Choice: 110 50
+Choice: 111 51
+Choice: 112 52
+Choice: 113 53
+Choice: 114 54
+Choice: 115 55
+Choice: 116 56
+Choice: 117 57
+Choice: 118 58
+Choice: 119 59
+Choice: 120 60
+END
+/main/other/d1b2
+Label: Info Display Error Status
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d1b3
+Label: Belichtungs Indikator Aufleuchten
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d1c0
+Label: Blitz offen
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d1c1
+Label: Blitz geladen
+Readonly: 1
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+END
+/main/other/d1d0
+Label: Blitz MRepeat Wert
+Readonly: 0
+Type: MENU
+Current: 3
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+END
+/main/other/d1d1
+Label: Blitz MRepeat Nummer
+Readonly: 0
+Type: MENU
+Current: 8
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+END
+/main/other/d1d2
+Label: Zeitraffer Intervall
+Readonly: 0
+Type: MENU
+Current: 9
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+END
+/main/other/d1d3
+Label: Blitz Commander Kanal
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d1d4
+Label: Blitz Commander eigener Modus
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+END
+/main/other/d1d5
+Label: Blitz Commander eigene Belichtungskorrektur
+Readonly: 0
+Type: MENU
+Current: 9
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+END
+/main/other/d1d6
+Label: Blitz Commander Selbst Wert
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+END
+/main/other/d1d7
+Label: Blitz Commander A Modus
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d1d8
+Label: Blitz Commander A Belichtungskorrektur
+Readonly: 0
+Type: MENU
+Current: 9
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+END
+/main/other/d1d9
+Label: Blitz Commander A Wert
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+END
+/main/other/d1da
+Label: Blitz Commander B Modus
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+END
+/main/other/d1db
+Label: Blitz Commander B Belichtungskorrektur
+Readonly: 0
+Type: MENU
+Current: 9
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+END
+/main/other/d1dc
+Label: Blitz Commander B Wert
+Readonly: 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+END
+/main/other/d200
+Label: Aktiviertes Pic Ctrl Item
+Readonly: 0
+Type: MENU
+Current: 1
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+Choice: 4 101
+Choice: 5 102
+Choice: 6 103
+Choice: 7 104
+Choice: 8 201
+Choice: 9 202
+Choice: 10 203
+Choice: 11 204
+Choice: 12 205
+Choice: 13 206
+Choice: 14 207
+Choice: 15 208
+Choice: 16 209
+END
+/main/other/d201
+Label: Ändere Pic Ctrl Item
+Readonly: 1
+Type: MENU
+Current: 0
+END
