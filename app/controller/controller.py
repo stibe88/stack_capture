@@ -33,8 +33,9 @@ class MainController(QObject):
 
         for i in range(self._model.number_images):
             self._camera.enable_viewfinder()
-            self._camera.change_focus(self._model.focus_change)
-            self._model.current_focus += self._model.focus_change
+            if i > 0:
+                self._camera.change_focus(self._model.focus_change)
+                self._model.current_focus += self._model.focus_change
             self._camera.capture_and_save_photo(
                 file_path=(
                     f"{self._model.folder_path}/"
@@ -59,7 +60,9 @@ class MainController(QObject):
         if value == 0:
             max_img = 999
         elif value > 0:
-            max_img = self._model.maximum_focus // value
+            max_img = (
+                self._model.maximum_focus - self._model.current_focus
+            ) // value
         else:
             max_img = -self._model.current_focus // value
         self._model.maximum_number_images = max_img
