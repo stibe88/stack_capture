@@ -228,6 +228,10 @@ class MainView(QMainWindow):
     @Slot(int)
     def number_images_changed(self, value: int) -> None:
         self._ui.SB_number_images.setValue(value)
+        if value == 0:
+            self._ui.PB_capture.setEnabled(False)
+        else:
+            self._ui.PB_capture.setEnabled(True)
 
     @Slot(int)
     def maximum_number_images_changed(self, value: int) -> None:
