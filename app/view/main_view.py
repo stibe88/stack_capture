@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QMainWindow, QFileDialog
+from PySide6.QtWidgets import QMainWindow, QFileDialog, QMessageBox
 from PySide6.QtCore import Slot
 
 import app.view.ui_main_window
@@ -120,6 +120,9 @@ class MainView(QMainWindow):
         self._model.maximum_number_images_changed.connect(
             self.maximum_number_images_changed
         )
+        self._model.message_changed.connect(
+            self.message_changed
+        )
 
         # set initial values
         self.camera_model_changed(self._model.camera_model)
@@ -127,6 +130,7 @@ class MainView(QMainWindow):
         self.apertures_changed(self._model.apertures)
         self.iso_speeds_changed(self._model.iso_speeds)
         self.maximum_number_images_changed(self._model.number_images)
+        self._model.focus_change = 100
 
     def folder_dialog(self) -> None:
         folder_path = QFileDialog.getExistingDirectory(
@@ -236,3 +240,13 @@ class MainView(QMainWindow):
     @Slot(int)
     def maximum_number_images_changed(self, value: int) -> None:
         self._ui.SB_number_images.setMaximum(value)
+
+    @Slot(dict)
+    def message_changed(self, value: dict) -> None:
+        match value["type"]:
+            case "status":
+                self._ui.statusbar.showMessage(value["message"], timeout=5000)
+            case "info":
+                QMessageBox.information(self, value["title"], value["message"])
+            case "error":
+                QMessageBox.critical(self, value["title"], value["message"])

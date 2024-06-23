@@ -38,6 +38,8 @@ class Model(QObject):
     _number_images: int = 0
     maximum_number_images_changed = Signal(int)
     _maximum_number_images: int = 0
+    message_changed = Signal(dict)
+    _message: dict = {}
 
     @property
     def camera_model(self) -> str:
@@ -200,3 +202,12 @@ class Model(QObject):
     def maximum_number_images(self, value: int) -> None:
         self._maximum_number_images = value
         self.maximum_number_images_changed.emit(value)
+
+    @property
+    def message(self) -> dict:
+        return self._message
+
+    @message.setter
+    def message(self, value: dict) -> None:
+        self._message = value
+        self.message_changed.emit(value)

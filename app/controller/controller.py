@@ -22,6 +22,24 @@ class MainController(QObject):
         self._model.maximum_number_images = 0
 
     def capture(self):
+        if not self._model.folder_path:
+            self._model.message = {
+                "type": "error",
+                "title": "Ordnerpfad fehlt",
+                "message": "Bitte wählen Sie einen Ordner aus, um die Bildserie zu speichern!"
+            }
+            return
+        if not self._model.image_series_name:
+            self._model.message = {
+                "type": "error",
+                "title": "Bildseriename fehlt",
+                "message": "Bitte vergeben Sie einen Bildserienamen!"
+            }
+            return
+        self._model.message = {
+            "type": "status",
+            "message": "Bildserie wird aufgenommen ..."
+        }
         if self._model.use_shutter_speed:
             self._camera.set_shutter_speed(self._model.shutter_speed)
         if self._model.use_aperture:
@@ -46,12 +64,24 @@ class MainController(QObject):
 
         self._camera.disable_viewfinder()
         self._camera.change_live_view_modus(0)
+        self._model.message = {
+            "type": "status",
+            "message": "Bildaufnahme abgeschlossen.",
+        }
 
     def initialize_focus(self):
+        self._model.message = {
+            "type": "status",
+            "message": "Fokus wird initialisiert ...",
+        }
         self._camera.initialize_focus()
         self._model.maximum_focus = self._camera.maximum_focus
         self._model.minimum_focus = 0
         self._model.current_focus = self._camera.current_focus
+        self._model.status_message = {
+            "type": "status",
+            "message": "Fokus ist initialisiert.",
+        }
         self.focus_change(self._model.focus_change)
 
     @Slot(int)
