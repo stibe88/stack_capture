@@ -1,0 +1,25 @@
+name: Stack Capture
+on: [push]
+
+jobs:
+  release:
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get version
+        id: tag_name
+        run: echo "version=$(echo $GITHUB_REF | cut -d / -f 3)" >> $GITHUB_OUTPUT
+        shell: bash
+      - name: Checkout
+        id: changelog_reader
+        uses: mindsers/changelog-reader-action@v2
+        with:
+          version: ${{ steps.tag_name.outputs.version }}
+          path: ./CHANGELOG.md
+      - name: Publish
+        uses: softprops/action-gh-release@v1
+        with:
+          body: ${{ steps.changelog_reader.outputs.changes }}
+          name: ${{ format('{0} - {1}', steps.tag_name.outputs.version, steps.changelog_reader.outputs.date) }}
+        env:
+          GITHUB_TOKEN: $ {{ secrets.GITHUB_TOKEN }}
